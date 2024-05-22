@@ -1,7 +1,9 @@
 name = "StaticArraysBlasInterfaces"
 uuid = "3c95a420-e72f-46bd-bd8e-135251b8d06f"
+license = "MIT"
+desc = "Interfaces between StaticArrays.jl and BLAS library."
 authors = ["Ronan Arraes Jardim Chagas <ronisbr@gmail.com>"]
-version = "0.0.1"
+version = "0.1.0"
 
 [deps]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
