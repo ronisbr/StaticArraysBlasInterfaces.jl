@@ -80,10 +80,10 @@ end
 ############################################################################################
 
 for load_sabi in (false, true)
-    @info "Testing $(load_sabi ? "with" : "without") StaticArraysBlasInterface..."
+    @info "Testing $(load_sabi ? "with" : "without") StaticArraysBlasInterfaces..."
 
     for T in (Float32, Float64)
-        load_sabi && using StaticArraysBlasInterface
+        load_sabi && using StaticArraysBlasInterfaces
 
         for (test_prefix, func) in (
             ("svd_thin", test_svd_thin),
@@ -116,7 +116,7 @@ end
 output_file = "benchmarks.md"
 f = open(output_file, "w")
 
-println(f, "# Benchmarks of StaticArraysBlasInterface.jl")
+println(f, "# Benchmarks of StaticArraysBlasInterfaces.jl")
 
 header = [
     "Matrix Dimension",

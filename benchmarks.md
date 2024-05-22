@@ -1,4 +1,4 @@
-# Benchmarks of StaticArraysBlasInterface.jl
+# Benchmarks of StaticArraysBlasInterfaces.jl
 
 ## Singular Value Decomposition (Thin) (`Float64`)
 

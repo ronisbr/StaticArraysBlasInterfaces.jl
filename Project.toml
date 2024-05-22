@@ -1,4 +1,4 @@
-name = "StaticArraysBlasInterface"
+name = "StaticArraysBlasInterfaces"
 uuid = "3c95a420-e72f-46bd-bd8e-135251b8d06f"
 authors = ["Ronan Arraes Jardim Chagas <ronisbr@gmail.com>"]
 version = "0.0.1"

@@ -2,7 +2,7 @@ using Test
 
 using LinearAlgebra
 using StaticArrays
-using StaticArraysBlasInterface
+using StaticArraysBlasInterfaces
 
 @testset "Singular Value Decomposition" verbose = true begin
     include("./svd.jl")

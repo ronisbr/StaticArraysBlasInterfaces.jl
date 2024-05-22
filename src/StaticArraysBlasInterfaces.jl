@@ -1,4 +1,4 @@
-module StaticArraysBlasInterface
+module StaticArraysBlasInterfaces
 
 using StaticArrays
 
@@ -11,4 +11,4 @@ import StaticArrays: _pinv, SVD, _svd
 
 include("svd.jl")
 
-end # module StaticArraysBlasInterface
+end # module StaticArraysBlasInterfaces

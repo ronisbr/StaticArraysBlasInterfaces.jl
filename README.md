@@ -1,4 +1,4 @@
-# StaticArraysBlasInterface.jl
+# StaticArraysBlasInterfaces.jl
 
 [![CI](https://github.com/ronisbr/StaticArraysBlasInterfaces.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/ronisbr/StaticArraysBlasInterfaces.jl/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/ronisbr/StaticArraysBlasInterfaces.jl/graph/badge.svg?token=08IDJN6FVI)](https://codecov.io/gh/ronisbr/StaticArraysBlasInterfaces.jl)
@@ -61,7 +61,7 @@ julia> @btime pinv($A)
  -0.121202    0.130855   -0.0118042    0.401804       0.176801   -0.108218    -0.265761    0.230577
  -0.11008     0.0739689   0.179732    -0.0809152      0.0753345  -0.162967     0.208302   -0.0216201
 
-julia> using StaticArraysBlasInterface
+julia> using StaticArraysBlasInterfaces
 
 julia> @btime pinv($A)
   2.634 μs (0 allocations: 0 bytes)
