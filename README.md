@@ -1,5 +1,8 @@
 # StaticArraysBlasInterface.jl
 
+[![CI](https://github.com/ronisbr/StaticArraysBlasInterfaces.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/ronisbr/StaticArraysBlasInterfaces.jl/actions/workflows/ci.yml)
+[![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/invenia/BlueStyle)
+
 This package implements a direct interface between BLAS library and some types of
 [StaticArrays.jl](https://github.com/JuliaArrays/StaticArrays.jl). The purpose of this
 approach is to avoid allocations in those situations that
