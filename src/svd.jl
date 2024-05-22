@@ -69,6 +69,9 @@ for (gesvd, elty, full) in (
                 1
             )
 
+            # Check if the return result of the function.
+            LAPACK.chklapackerror(info.x)
+
             # Convert the matrices to static arrays and return.
             U  = SMatrix{M, $(full ? :M : :K), $elty}(Um)
             S  = SVector{K, $elty}(Sm)
