@@ -2,7 +2,7 @@ module StaticArraysBlasInterface
 
 using StaticArrays
 
-import LinearAlgebra: BLAS, libblastrampoline
+import LinearAlgebra: BLAS, LAPACK, libblastrampoline
 import StaticArrays: _pinv, SVD, _svd
 
 ############################################################################################
