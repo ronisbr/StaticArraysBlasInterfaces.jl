@@ -35,7 +35,7 @@ TBD
 
 We just need to load the package to start using the direct interfaces:
 
-```julia-repl
+```julia
 julia> using LinearAlgebra, StaticArrays, BenchmarkTools
 
 julia> A = @SMatrix randn(10, 5)
