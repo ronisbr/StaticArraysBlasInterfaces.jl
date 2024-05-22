@@ -1,6 +1,7 @@
 # StaticArraysBlasInterface.jl
 
 [![CI](https://github.com/ronisbr/StaticArraysBlasInterfaces.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/ronisbr/StaticArraysBlasInterfaces.jl/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/ronisbr/StaticArraysBlasInterfaces.jl/graph/badge.svg?token=08IDJN6FVI)](https://codecov.io/gh/ronisbr/StaticArraysBlasInterfaces.jl)
 [![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/invenia/BlueStyle)
 
 This package implements a direct interface between BLAS library and some types of
